@@ -16,7 +16,7 @@ int main(void){
     printf("Text: ");
     fgets(text, 2000, stdin);
 
-    printf("Your text input: %s\n", text1);
+    // printf("Your text input: %s\n", text1); //can be opted out.
 
     strcpy(text1, text);
 
